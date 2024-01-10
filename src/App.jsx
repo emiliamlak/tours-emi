@@ -30,7 +30,7 @@ const App = () => {
   useEffect(() => {
     fetchTours();
   }, []);
-
+  
   if (isLoading) {
     return (
       <main>
